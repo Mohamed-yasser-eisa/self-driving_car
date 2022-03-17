@@ -2,6 +2,11 @@
 
 build date of this project: (19 November, 2020)
 
+This project was a task required from me and my teammates (we were 4 members in 
+the team) in electronics class.
+
+I was the one who built the android applications in Java using Android Studio IDE.
+
 1- Project description:
 
     We built a moving vehicle that carries a mobile phone and RFID reader, it moves in a race track has two clear lines (one line on each side), it moves between the two lines autonomously, this is done by a laptop application will depend on the images sent from the mobile camera to guide the vehicle. So, the phone gets the images continuously, and send them to the laptop where OpenCV analyze the images and guide the vehicle.
