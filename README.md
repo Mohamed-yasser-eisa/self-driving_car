@@ -1,6 +1,6 @@
 # self-driving_car
 
-build date of this project: (19 November, 2020)
+Build date: (19 November, 2020)
 
 This project was a team based task required from me and my teammates (we were 4 
 members) in electronics class. I was the one who built the android applications in 
