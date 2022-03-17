@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/tesla9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="IP Address:"
+         />
+
+
+    <EditText
+        android:id="@+id/editTextIPAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. 192.168.0.10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Port Number:"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="e.g. 80"
+        android:id="@+id/editTextPortNumber" />
+
+    /////////////////////////////
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:background="@drawable/left"
+        android:translationX="-120dp"
+        android:translationY="175dp" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:background="@drawable/right"
+        android:translationX="120dp"
+        android:translationY="85dp"
+         />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="85dp"
+        android:layout_height="110dp"
+        android:background="@drawable/down"
+        android:translationX="0dp"
+        android:translationY="130dp"
+         />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/stop"
+        android:translationX="0dp"
+        android:translationY="-120dp"
+        />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="85dp"
+        android:layout_height="110dp"
+        android:background="@drawable/up"
+        android:translationX="0dp"
+        android:translationY="-350dp"
+        />
+
+
+</LinearLayout>
